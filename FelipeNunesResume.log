@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.10)  16 APR 2025 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.10)  16 APR 2025 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,12 +23,6 @@ File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
-(/usr/share/texmf-dist/tex/latex/base/latexsym.sty
-Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-)
 (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip51
@@ -45,9 +39,6 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
 )
-(/usr/share/texmf-dist/tex/latex/marvosym/marvosym.sty
-Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
-)
 (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
 
@@ -63,18 +54,12 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
 (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
-\verbatim@in@stream=\read2
-)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\enitkv@toks@=\toks20
+\enitkv@toks@=\toks18
 \labelindent=\skip54
 \enit@outerparindent=\dimen147
-\enit@toks=\toks21
+\enit@toks=\toks19
 \enit@inbox=\box53
 \enit@count@id=\count270
 \enitdp@description=\count271
@@ -87,7 +72,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks20
 )
 (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -239,7 +224,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip67
 \f@nch@widthC=\skip68
 \f@nch@widthR=\skip69
-\@temptokenb=\toks23
+\@temptokenb=\toks21
 )
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
@@ -249,7 +234,7 @@ eX and XeLaTeX
 \l@unhyphenated=\language3
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
+\bbl@readstream=\read2
 \bbl@dirlevel=\count285
 
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
@@ -277,7 +262,7 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen153
 \ar@mcellbox=\box54
 \extrarowheight=\dimen154
-\NC@list=\toks24
+\NC@list=\toks22
 \extratabsurround=\skip70
 \backup@length=\skip71
 \ar@cellbox=\box55
@@ -288,7 +273,24 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@target=\dimen158
 \TX@delta=\dimen159
 \TX@cols=\count286
-\TX@ftn=\toks25
+\TX@ftn=\toks23
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
 (/usr/share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -299,64 +301,113 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (./FelipeNunesResume.aux)
 \openout1 = `FelipeNunesResume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
-\scratchdimen=\dimen160
+\scratchdimen=\dimen162
 \scratchbox=\box57
 \nofMPsegments=\count289
 \nofMParguments=\count290
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count291
-\MPscratchDim=\dimen161
+\MPscratchDim=\dimen163
 \MPnumerator=\count292
 \makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks27
-)
-Package hyperref Info: Link coloring OFF on input line 56.
- (./FelipeNunesResume.out) (./FelipeNunesResume.out)
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 54.
+
+(./FelipeNunesResume.out) (./FelipeNunesResume.out)
 \@outlinefile=\write3
 \openout3 = `FelipeNunesResume.out'.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 59.
+(Font)              using `OT1/cmr/bx/n' instead on input line 58.
 
+<assets/phone.png, id=28, 513.92pt x 513.92pt>
+File: assets/phone.png Graphic file (type png)
+<use assets/phone.png>
+Package pdftex.def Info: assets/phone.png  used on input line 60.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 60.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 60
-.
-(/usr/share/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
+<assets/mail.png, id=30, 513.92pt x 513.92pt>
+File: assets/mail.png Graphic file (type png)
+<use assets/mail.png>
+Package pdftex.def Info: assets/mail.png  used on input line 61.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+<assets/linkedin.png, id=32, 513.92pt x 513.92pt>
+File: assets/linkedin.png Graphic file (type png)
+<use assets/linkedin.png>
+Package pdftex.def Info: assets/linkedin.png  used on input line 63.
+(pdftex.def)             Requested size: 12.79778pt x 12.80373pt.
+<assets/github.png, id=34, 513.92pt x 513.92pt>
+File: assets/github.png Graphic file (type png)
+<use assets/github.png>
+Package pdftex.def Info: assets/github.png  used on input line 65.
+(pdftex.def)             Requested size: 9.1043pt x 9.10486pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 69.
+(Font)              <10.95> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 69.
+(Font)              <6> on input line 73.
+<assets/link.png, id=39, 513.92pt x 513.92pt>
+File: assets/link.png Graphic file (type png)
+<use assets/link.png>
+Package pdftex.def Info: assets/link.png  used on input line 110.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+File: assets/link.png Graphic file (type png)
+<use assets/link.png>
+Package pdftex.def Info: assets/link.png  used on input line 110.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+File: assets/link.png Graphic file (type png)
+<use assets/link.png>
+Package pdftex.def Info: assets/link.png  used on input line 123.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+File: assets/link.png Graphic file (type png)
+<use assets/link.png>
+Package pdftex.def Info: assets/link.png  used on input line 123.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+File: assets/link.png Graphic file (type png)
+<use assets/link.png>
+Package pdftex.def Info: assets/link.png  used on input line 136.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+File: assets/link.png Graphic file (type png)
+<use assets/link.png>
+Package pdftex.def Info: assets/link.png  used on input line 136.
+(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
 
 
 
@@ -367,7 +418,9 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/cm-super/cm-super-ts1.enc}] (./FelipeNunesResume.aux)
+/enc/dvips/cm-super/cm-super-ts1.enc} <./assets/phone.png> <./assets/mail.png> 
+<./assets/linkedin.png> <./assets/github.png> <./assets/link.png>]
+(./FelipeNunesResume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -377,16 +430,16 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `FelipeNunesResume.out' has not changed.
-(rerunfilecheck)             Checksum: 4502D1FF8CB5860A342D5C7BBA12801A;647.
+(rerunfilecheck)             Checksum: B6B50E7CE9E7E37D27B25EBB6AFF42C0;715.
  ) 
 Here is how much of TeX's memory you used:
- 10897 strings out of 475171
- 170877 string characters out of 5767095
- 610010 words of memory out of 5000000
- 33769 multiletter control sequences out of 15000+600000
- 565105 words of font info for 60 fonts, out of 8000000 for 9000
+ 10887 strings out of 475171
+ 172750 string characters out of 5767095
+ 615955 words of memory out of 5000000
+ 33757 multiletter control sequences out of 15000+600000
+ 564469 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,270b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,264b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
@@ -394,10 +447,10 @@ ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-
 dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on FelipeNunesResume.pdf (1 page, 110292 bytes).
+Output written on FelipeNunesResume.pdf (1 page, 140378 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
