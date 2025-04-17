@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=\textbullet]}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+	\begin{center}
+		\textbf{\Huge \scshape Felipe Nunes} \\ \vspace{1pt}
+		\small 778-839-8344 $|$ \href{mailto:felipenunes4822@gmail.com}{\underline{felipenunes4822@gmail.com}} $|$ 
+		\href{https://www.linkedin.com/in/felipemeinerznunes/}{\underline{linkedin.com/in/felipenunes}} $|$
+		\href{https://github.com/felipflop}{\underline{github.com/felipflop}}
+	\end{center}
+	
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{University of British Columbia}{Sep 2020 –  Apr 2026}
+	{Bachelor of Applied Science in Integrated Engineering}{}
+	\resumeSubHeadingListEnd
+	
+	\section{Experience}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Miru Smart Technologies}{May 2024 – Aug 2024}
+	{Systems Integration Intern}{Vancouver, B.C.}
+	\resumeItemListStart
+	\resumeItem{Reduced mixed-signal PCB size by over 60\% in a 6 layer design using a BGA System on Module}
+	\resumeItem{Wrote C modules in Zephyr to drive electrochromic windows, increasing transitioning frequency by 1.5 times}
+	\resumeItem{Devised a custom compilation pipeline using CMake and linker scripts for an ARM64 target}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Sarcomere Dynamics}{May 2023 – Apr 2024}
+	{Electrical and Firmware Engineering Intern}{Vancouver, B.C.}
+	\resumeItemListStart
+	\resumeItem{Implemented embedded C firmware with a finite state machine to control actuators in a multi-DOF robotic hand}
+	\resumeItem{Redesigned three PCBs with emphasis on USB-C integration, mixed-signal routing, and power delivery}
+	\resumeItem{Developed modular C++ classes and extended a custom Python API to support wireless communication via Wi-Fi}
+	\resumeItem{Performed reflow soldering, signal probing, and hardware bring-up for embedded prototypes}
+	\resumeItemListEnd
+
+	
+	\resumeSubHeadingListEnd
+	
+	\section{Projects}
+	\resumeSubHeadingListStart
+	
+	\resumeProjectHeading
+	{\textbf{CheckMATE - Robotic Chessboard} $|$ 
+		\hfill 
+		\href{https://github.com/ryanbrown919/CHECKMATE}{Code} $|$ 
+		\href{https://raw.githubusercontent.com/ryanbrown919/CHECKMATE/main/docs/CheckMATE-Report.pdf}{Report}
+	}{Sep 2024 – Apr 2025}
+	\resumeItemListStart
+	\resumeItem{Designed custom PCBs and cable assemblies for a multiplexed Hall effect sensor grid to detect chess piece positions}
+	  \resumeItem{Selected stepper motors and drivers; configured and compiled a custom GRBL build for an H-bot gantry}
+	\resumeItem{Developed hardware abstraction layers and implemented a backend algorithm for sensor polling and state detection}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+	{\textbf{Helmet HUD - Mountable Heads Up Display} $|$ 
+		\hfill 
+		\href{https://github.com/felipflop/HelmetHUD}{Code} $|$ 
+		\href{https://raw.githubusercontent.com/felipflop/HelmetHUD/master/HelmetHUD-Report.pdf}{Report}
+	}{Oct 2022 – Apr 2023}
+	\resumeItemListStart
+	\resumeItem{Engineered an ESP32-based control unit to interface with UBC Formula E’s CAN bus}
+	\resumeItem{Displayed real-time telemetry (speed, temp, lap time) on an I2C OLED using FreeRTOS task scheduling}
+	\resumeItem{Designed a compact custom PCB integrated into a 3D-printed helmet-mounted enclosure}
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+	{\textbf{Barmaid - Automated Drink Dispenser} $|$ 
+		\hfill 
+		\href{https://github.com/felipflop/Barmaid}{Code} $|$ 
+		\href{https://raw.githubusercontent.com/felipflop/barmaid/master/Barmaid-Report.pdf}{Report}
+	}{Nov 2021 – Apr 2022}
+	\resumeItemListStart
+	\resumeItem{Constructed a custom beverage dispenser using CNC-milled aluminum and a 3D printed nozzle}
+	\resumeItem{Controlled dosing system with solenoid valves and load cell feedback for precision pouring}
+	\resumeItem{Wrote firmware for automated calibration, stepper control, drink selection and dispensing, and LCD user interface}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	\section{Engineering Design Teams}
+	\resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Open Robotics}{Sep 2024 – Present}
+	{Grippers Team Lead}{University of British Columbia}
+	\resumeItemListStart
+	\resumeItem{Directed the full-cycle development of a parallel gripper end effector for the RoboCup@Home competition}
+	\resumeItem{Managed a cross-disciplinary team of eight from initial design and prototyping to system integration}
+	\resumeItemListEnd
+	
+	\resumeSubheading
+	{Supermileage}{Sep 2022 – Aug 2023}
+	{Electrical Team Member}{University of British Columbia}
+	\resumeItemListStart
+	\resumeItem{Redesigned and assembled a custom PCB leveraging analog sensors to detect  faults in a hydrogen electric FSAE car}
+	\resumeItem{Competed and won 2023 SEMA competition in the hydrogen fuel cell category at the  Indianapolis Motor Speedway}
+	\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+	
+	\section{Technical Skills}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\small{\item{
+				\textbf{Operating Systems}{: Linux (Arch, Ubuntu, Raspbian), Windows, macOS, FreeRTOS, Zephyr} \\
+				\textbf{Programming Languages}{: C/C++, Python, JavaScript, HTML, CSS, MATLAB, R}, Bash scripting \\
+				\textbf{Hardware Design}{: Circuit design/analysis, PCB layout (Altium, KiCad), FPGAs, VHDL, Multisim} \\
+				\textbf{Mechanical Design}{: Fusion 360, Onshape, SolidWorks, Orca Slicer} \\
+				\textbf{Tools \& Instrumentation}{: Oscilloscopes, Logic Analyzers, Function Generators,  Soldering (reflow \& hand)}
+		}}
+	\end{itemize}
+	
+	
+	\section{Languages}
+	\begin{itemize}[leftmargin=0.15in, label={}]
+		\item French (Working Proficiency), Portuguese (Bilingual Proficiency), Spanish (Working Proficiency)
+	\end{itemize}
+	
+\end{document}
