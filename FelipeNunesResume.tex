@@ -28,7 +28,7 @@
 
 \titleformat{\section}{
 	\vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 \pdfgentounicode=1
 
@@ -44,7 +44,7 @@
 	\item
 	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
 		\small#1 & #2 \\
-	\end{tabular*}\vspace{-7pt}
+	\end{tabular*}\vspace{-9pt}
 }
 \newcommand{\resumeItemListStart}{\begin{itemize}[label=\textbullet]}
 	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -53,11 +53,10 @@
 
 \begin{document}
 	
-	
 	\begin{center}
 		\textbf{\Huge \scshape Felipe Nunes} \\ \vspace{1pt}
 		\small
-		\raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/phone.png}} \texttt{+}1 (778) 839-8344 $|$
+		\raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/phone.png}} \texttt{+}1  (778) 839-8344 $|$
 		\raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/mail.png}} 
 		\href{mailto:felipenunes4822@gmail.com}{felipenunes4822@gmail.com} $|$ 
 		\raisebox{-0.2\height}{\includegraphics[height=4.5mm]{assets/linkedin.png}} 
@@ -65,6 +64,12 @@
 		\raisebox{-0.15\height}{\includegraphics[height=3.2mm]{assets/github.png}} 
 		\href{https://github.com/felipflop}{github.com/felipflop}
 	\end{center}
+	
+	\vspace{-6pt}
+	\begin{center}
+		\small \textbf{Embedded Systems Engineer}
+	\end{center}
+	\vspace{-18pt}
 	
 	\section{Education}
 	\resumeSubHeadingListStart
@@ -111,7 +116,7 @@
 	\resumeItemListEnd
 	
 	\resumeProjectHeading
-	{\textbf{Mountable Heads Up Display} }{Oct 2022 – Apr 2023}
+	{\textbf{Mountable Heads Up Display}}{Oct 2022 – Apr 2023}
 	\resumeItemListStart
 	\resumeItem{Engineered an ESP32-based control unit to interface with UBC Formula Electric's CAN bus}
 	\resumeItem{Displayed real-time telemetry (speed, temp, lap time) on an I2C OLED using FreeRTOS task scheduling}
@@ -119,7 +124,7 @@
 	\resumeItemListEnd
 	
 	\resumeProjectHeading
-	{\textbf{Automated Drink Dispenser}}{Nov 2021 – Apr 2022}
+	{\textbf{Automated Drink Dispenser} }{Nov 2021 – Apr 2022}
 	\resumeItemListStart
 	\resumeItem{Constructed a custom beverage dispenser using CNC-milled aluminum and a 3D printed nozzle}
 	\resumeItem{Controlled dosing system with solenoid valves and load cell feedback for precision pouring}
