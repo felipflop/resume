@@ -2,9 +2,25 @@
 \newcommand{\myName}{Felipe Nunes}
 \newcommand{\myEmail}{felipenunes4822@gmail.com}
 \newcommand{\myPhone}{+1 (778) 839-8344}
-\newcommand{\myLinkedIn}{linkedin.com/in/felipemeinerznunes}
+\newcommand{\myLinkedIn}{linkedin.com/in/fnunes-eng}
 \newcommand{\myGitHub}{github.com/felipflop}
 
-% formatting macros
-\newcommand{\sectionTitle}[1]{\vspace{0.5em}\noindent\textbf{#1}\vspace{0.3em}\par}
-\newcommand{\itemdash}{ | }
+% resume formatting commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-9pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=\textbullet]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
