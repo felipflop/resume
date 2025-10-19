@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.12)  12 OCT 2025 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.12)  17 OCT 2025 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -301,24 +301,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 (build/FelipeNunes_Resume_Embedded.aux)
 \openout1 = `FelipeNunes_Resume_Embedded.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -342,7 +342,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 53.
 
 (build/FelipeNunes_Resume_Embedded.out) (build/FelipeNunes_Resume_Embedded.out)
 \@outlinefile=\write3
@@ -353,26 +353,22 @@ Package hyperref Info: Link coloring OFF on input line 35.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 2.
 
-<assets/phone.png, id=28, 513.92pt x 513.92pt>
+<assets/phone.png, id=24, 513.92pt x 513.92pt>
 File: assets/phone.png Graphic file (type png)
 <use assets/phone.png>
 Package pdftex.def Info: assets/phone.png  used on input line 4.
 (pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
-<assets/mail.png, id=30, 513.92pt x 513.92pt>
+<assets/mail.png, id=26, 513.92pt x 513.92pt>
 File: assets/mail.png Graphic file (type png)
 <use assets/mail.png>
 Package pdftex.def Info: assets/mail.png  used on input line 6.
 (pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
-<assets/linkedin.png, id=32, 513.92pt x 513.92pt>
+<assets/linkedin.png, id=28, 513.92pt x 513.92pt>
 File: assets/linkedin.png Graphic file (type png)
 <use assets/linkedin.png>
 Package pdftex.def Info: assets/linkedin.png  used on input line 8.
 (pdftex.def)             Requested size: 12.79778pt x 12.80373pt.
-<assets/github.png, id=34, 513.92pt x 513.92pt>
+<assets/github.png, id=30, 513.92pt x 513.92pt>
 File: assets/github.png Graphic file (type png)
 <use assets/github.png>
 Package pdftex.def Info: assets/github.png  used on input line 10.
@@ -386,31 +382,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 ) (./src/experience.tex)
 (./src/projects.tex
-<assets/link.png, id=39, 513.92pt x 513.92pt>
+<assets/link.png, id=35, 513.92pt x 513.92pt>
 File: assets/link.png Graphic file (type png)
 <use assets/link.png>
-Package pdftex.def Info: assets/link.png  used on input line 10.
-(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+Package pdftex.def Info: assets/link.png  used on input line 8.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 File: assets/link.png Graphic file (type png)
 <use assets/link.png>
-Package pdftex.def Info: assets/link.png  used on input line 10.
-(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+Package pdftex.def Info: assets/link.png  used on input line 8.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 File: assets/link.png Graphic file (type png)
 <use assets/link.png>
-Package pdftex.def Info: assets/link.png  used on input line 24.
-(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+Package pdftex.def Info: assets/link.png  used on input line 61.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 File: assets/link.png Graphic file (type png)
 <use assets/link.png>
-Package pdftex.def Info: assets/link.png  used on input line 24.
-(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+Package pdftex.def Info: assets/link.png  used on input line 61.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 File: assets/link.png Graphic file (type png)
 <use assets/link.png>
-Package pdftex.def Info: assets/link.png  used on input line 37.
-(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+Package pdftex.def Info: assets/link.png  used on input line 72.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 File: assets/link.png Graphic file (type png)
 <use assets/link.png>
-Package pdftex.def Info: assets/link.png  used on input line 37.
-(pdftex.def)             Requested size: 9.9512pt x 9.95845pt.
+Package pdftex.def Info: assets/link.png  used on input line 72.
+(pdftex.def)             Requested size: 8.53185pt x 8.53581pt.
 ) (./src/design-teams.tex) (./src/skills.tex)
 (./src/languages.tex)
 
@@ -435,29 +431,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `FelipeNunes_Resume_Embedded.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: B6B50E7CE9E7E37D27B25EBB6AFF42C0;715.
+(rerunfilecheck)             Checksum: 9B5A78801CB276628CE57C3286D58082;425.
  ) ) 
 Here is how much of TeX's memory you used:
- 10980 strings out of 475171
- 174677 string characters out of 5767094
- 617362 words of memory out of 5000000
- 33813 multiletter control sequences out of 15000+600000
- 564637 words of font info for 55 fonts, out of 8000000 for 9000
+ 10984 strings out of 475171
+ 174719 string characters out of 5767094
+ 612555 words of memory out of 5000000
+ 33819 multiletter control sequences out of 15000+600000
+ 564296 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 80i,11n,82p,286b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,11n,82p,328b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1095.pfb>
-Output written on build/FelipeNunes_Resume_Embedded.pdf (1 page, 149546 bytes).
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on build/FelipeNunes_Resume_Embedded.pdf (1 page, 139049 bytes).
 
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

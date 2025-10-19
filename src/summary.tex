@@ -1,4 +1,12 @@
+\vspace{-8pt}
 \begin{center}
-	\small \textbf{Embedded Systems Engineer}
+	\small \textbf{%
+		\ifembedded{Embedded Systems Engineer}%
+		\ifsoftware{Software Engineer}%
+		\ifhardware{Hardware Engineer}%
+		\iffirmware{Firmware Engineer}%
+		\ifprojectmgmt{Technical Project Manager}%
+		\ifmaster{Systems Engineer \& Technical Leader}%
+	}
 \end{center}
-\vspace{-18pt}
+\vspace{-16pt}

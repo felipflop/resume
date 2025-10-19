@@ -2,25 +2,62 @@
 	\resumeSubHeadingListStart
 	
 	\resumeProjectHeading
-	{\textbf{Robotic Chessboard} $|$ 
-		\hfill 
-		\href{https://github.com/ryanbrown919/CHECKMATE}{Code \raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/link.png}} } 
-		$|$ 
-		\href{https://raw.githubusercontent.com/ryanbrown919/CHECKMATE/main/docs/CheckMATE-Report.pdf}{Report \raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/link.png}}}
+	{\textbf{Robotic Chessboard} \hfill 
+		\href{https://github.com/ryanbrown919/CHECKMATE}{\small{Code} \raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/link.png}}} $|$ 
+		\href{https://raw.githubusercontent.com/ryanbrown919/CHECKMATE/main/docs/CheckMATE-Report.pdf}{\small{Report} \raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/link.png}}}
 	}{Sep 2024 – Apr 2025}
 	\resumeItemListStart
-	\resumeItem{Won the Best Engineering Project award out of all final-year Capstone projects}
-	\resumeItem{Designed custom PCBs and cable assemblies for a multiplexed Hall effect sensor grid to detect chess piece positions}
-	  \resumeItem{Selected stepper motors and drivers; configured and compiled a custom GRBL build for an H-bot gantry}
-	\resumeItem{Developed hardware abstraction layers and implemented a backend algorithm for sensor polling and state detection}
+	
+	\ifembedded{
+		\resumeItem{Won the Best Engineering Project award out of all final-year Capstone projects}
+		\resumeItem{Designed custom PCBs and cable assemblies for a multiplexed Hall effect sensor grid to detect chess piece positions}
+		\resumeItem{Implemented real-time firmware for STM32 microcontroller with interrupt-driven sensor polling}
+		\resumeItem{Developed hardware abstraction layers for stepper motor control and sensor interfacing}
+	}
+	
+	\ifsoftware{
+		\resumeItem{Won the Best Engineering Project award out of all final-year Capstone projects}
+		\resumeItem{Developed Python chess engine integration with Stockfish for AI gameplay capabilities}
+		\resumeItem{Built real-time web interface using Flask and WebSocket for remote game monitoring}
+		\resumeItem{Implemented computer vision algorithms for piece recognition and position validation}
+	}
+	
+	\ifhardware{
+		\resumeItem{Won the Best Engineering Project award out of all final-year Capstone projects}
+		\resumeItem{Designed custom PCBs and cable assemblies for a multiplexed Hall effect sensor grid to detect chess piece positions}
+		\resumeItem{Selected stepper motors and drivers; configured and compiled a custom GRBL build for an H-bot gantry}
+		\resumeItem{Performed EMI analysis and implemented shielding solutions for reliable sensor operation}
+	}
+	
+	\iffirmware{
+		\resumeItem{Won the Best Engineering Project award out of all final-year Capstone projects}
+		\resumeItem{Implemented real-time firmware for STM32 microcontroller with interrupt-driven sensor polling}
+		\resumeItem{Developed hardware abstraction layers and implemented a backend algorithm for sensor polling and state detection}
+		\resumeItem{Optimized memory usage and execution speed for real-time chess piece tracking and movement control}
+	}
+	
+	\ifprojectmgmt{
+		\resumeItem{Led interdisciplinary team of 6 students to win the Best Engineering Project award out of all final-year Capstone projects}
+		\resumeItem{Managed project timeline and deliverables across hardware, firmware, and software components}
+		\resumeItem{Coordinated design reviews and testing protocols to ensure integration between subsystems}
+		\resumeItem{Implemented agile project management practices and conducted weekly sprint reviews}
+	}
+	
+	\ifmaster{
+		\resumeItem{Won the Best Engineering Project award out of all final-year Capstone projects}
+		\resumeItem{Designed custom PCBs and cable assemblies for a multiplexed Hall effect sensor grid to detect chess piece positions}
+		\resumeItem{Implemented real-time firmware for STM32 microcontroller with interrupt-driven sensor polling}
+		\resumeItem{Developed Python chess engine integration with Stockfish for AI gameplay capabilities}
+		\resumeItem{Built real-time web interface using Flask and WebSocket for remote game monitoring}
+		\resumeItem{Led interdisciplinary team of 6 students through complete system integration and testing}
+	}
+	
 	\resumeItemListEnd
 	
 	\resumeProjectHeading
-	{\textbf{Mountable Heads Up Display} $|$ 
-		\hfill 
-		\href{https://github.com/felipflop/HelmetHUD}{Code \raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/link.png}}} 
-		$|$ 
-		\href{https://raw.githubusercontent.com/felipflop/HelmetHUD/master/HelmetHUD-Report.pdf}{Report \raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/link.png}}}
+	{\textbf{Mountable Heads Up Display} \hfill 
+		\href{https://github.com/felipflop/HelmetHUD}{\small{Code} \raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/link.png}}} $|$ 
+		\href{https://raw.githubusercontent.com/felipflop/HelmetHUD/master/HelmetHUD-Report.pdf}{\small{Report} \raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/link.png}}}
 	}{Oct 2022 – Apr 2023}
 	\resumeItemListStart
 	\resumeItem{Engineered an ESP32-based control unit to interface with UBC Formula Electric's CAN bus}
@@ -29,11 +66,9 @@
 	\resumeItemListEnd
 	
 	\resumeProjectHeading
-	{\textbf{Automated Drink Dispenser} $|$ 
-		\hfill 
-		\href{https://github.com/felipflop/Barmaid}{Code \raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/link.png}}} 
-		$|$ 
-		\href{https://raw.githubusercontent.com/felipflop/barmaid/master/Barmaid-Report.pdf}{Report \raisebox{-0.15\height}{\includegraphics[height=3.5mm]{assets/link.png}}}
+	{\textbf{Automated Drink Dispenser} \hfill 
+		\href{https://github.com/felipflop/Barmaid}{\small{Code} \raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/link.png}}} $|$ 
+		\href{https://raw.githubusercontent.com/felipflop/barmaid/master/Barmaid-Report.pdf}{\small{Report} \raisebox{-0.1\height}{\includegraphics[height=3mm]{assets/link.png}}}
 	}{Nov 2021 – Apr 2022}
 	\resumeItemListStart
 	\resumeItem{Constructed a custom beverage dispenser using CNC-milled aluminum and a 3D printed nozzle}

@@ -2,8 +2,10 @@ OUT := out
 AUX := build
 LATEX := latexmk -pdf -interaction=nonstopmode -outdir=$(OUT) -auxdir=$(AUX)
 
-all: embedded hardware firmware software project-management
+all: master embedded hardware firmware software project-management 
 
+master:
+	$(LATEX) -jobname=FelipeNunes_Resume_Master variants/master.tex
 embedded:
 	$(LATEX) -jobname=FelipeNunes_Resume_Embedded variants/embedded.tex
 hardware:
@@ -19,4 +21,4 @@ clean:
 	latexmk -C
 	rm -rf $(OUT) $(AUX)
 
-.PHONY: all embedded hardware firmware software project-management clean
+.PHONY: all master embedded hardware firmware software project-management clean

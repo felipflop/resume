@@ -1,36 +1,54 @@
-\documentclass[letterpaper,11pt]{article}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{graphicx}
-\input{glyphtounicode}
+% Felipe Nunes Resume - Main Document
+% ===================================
+% Professional LaTeX resume with multiple variants
+% Author: Felipe Nunes
+% Last Updated: October 2025
 
+\documentclass[letterpaper,11pt]{article}
+
+% ================== PACKAGES ==================
+\usepackage[empty]{fullpage}      % Remove page numbers and headers
+\usepackage{titlesec}             % Custom section formatting
+\usepackage[usenames,dvipsnames]{color}  % Color support
+\usepackage{enumitem}             % Custom list formatting
+\usepackage[hidelinks]{hyperref}  % Clickable links without boxes
+\usepackage{fancyhdr}             % Header/footer customization
+\usepackage[english]{babel}       % Language support
+\usepackage{tabularx}             % Advanced table formatting
+\usepackage{graphicx}             % Image support
+\input{glyphtounicode}            % Unicode support for PDFs
+
+% ================== PAGE LAYOUT ==================
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins for professional layout
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
-\urlstyle{same}
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
+% ================== DOCUMENT FORMATTING ==================
+\urlstyle{same}                   % URLs same font as text
+\raggedbottom                     % Prevent stretching content
+\raggedright                      % Left align text
+\setlength{\tabcolsep}{0in}       % Remove table column separation
 
-\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
-\pdfgentounicode=1
+% ================== SECTION FORMATTING ==================
+\titleformat{\section}{
+	\vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
-\input{src/macros}
-\graphicspath{{assets/}}
+% ================== PDF OPTIMIZATION ==================
+\pdfgentounicode=1                % Enable PDF text extraction
+
+% ================== GRAPHICS & CUSTOM COMMANDS ==================
+\graphicspath{{assets/}}          % Path for images
+\input{src/macros}                % Load custom commands and personal info
 
 \begin{document}
 

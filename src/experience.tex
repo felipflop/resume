@@ -1,23 +1,106 @@
-\section{Professional Experience}
+\section{Experience}
 	\resumeSubHeadingListStart
 	
 	\resumeSubheading
 	{\href{https://mirucorp.com/}{Miru Smart Technologies}}{May 2024 – Aug 2024}
 	{Systems Integration Intern}{Vancouver, B.C.}
 	\resumeItemListStart
-	\resumeItem{Reduced PCB footprint by 60\% (6‑layer, BGA SoM) and added a tuned 2.4 GHz inverted-F antenna}
-	\resumeItem{Wrote C modules in Zephyr to drive electrochromic windows controller, increasing transitioning rate by 50\%}
-	\resumeItem{Devised a custom compilation pipeline using CMake and linker scripts for an ARM64 target}
+	
+	\ifembedded{
+		\resumeItem{Reduced PCB footprint by 60\% (6‑layer, BGA SoM) and added a tuned 2.4 GHz inverted-F antenna}
+		\resumeItem{Wrote C modules in Zephyr to drive electrochromic windows controller, increasing transitioning rate by 50\%}
+		\resumeItem{Implemented low-power sleep modes and power management for battery-operated IoT device}
+		\resumeItem{Optimized firmware for ARM Cortex-M4 with real-time constraints and interrupt handling}
+	}
+	
+	\ifsoftware{
+		\resumeItem{Developed Python automation scripts for CI/CD pipeline, reducing deployment time by 40\%}
+		\resumeItem{Built RESTful API endpoints for device configuration and monitoring using Flask}
+		\resumeItem{Implemented data processing algorithms for sensor fusion and window control logic}
+		\resumeItem{Created comprehensive unit tests achieving 95\% code coverage for critical modules}
+	}
+	
+	\ifhardware{
+		\resumeItem{Reduced PCB footprint by 60\% through strategic component placement and 6-layer stackup design}
+		\resumeItem{Designed and tuned 2.4 GHz inverted-F antenna with -12dB return loss across operating band}
+		\resumeItem{Performed EMI/EMC analysis and implemented filtering solutions for regulatory compliance}
+		\resumeItem{Conducted thermal analysis and implemented heat dissipation strategies for high-power components}
+	}
+	
+	\iffirmware{
+		\resumeItem{Wrote C modules in Zephyr RTOS to drive electrochromic windows controller, increasing transitioning rate by 50\%}
+		\resumeItem{Implemented device drivers for SPI and I2C peripherals with robust error handling}
+		\resumeItem{Developed bootloader and over-the-air update mechanism for field deployable devices}
+		\resumeItem{Optimized memory usage and execution speed for resource-constrained embedded system}
+	}
+	
+	\ifprojectmgmt{
+		\resumeItem{Led cross-functional team of 5 engineers through complete product development lifecycle}
+		\resumeItem{Managed project timeline and deliverables, ensuring on-time delivery of all milestones}
+		\resumeItem{Coordinated requirements gathering with stakeholders and translated them into technical specifications}
+		\resumeItem{Implemented agile development processes and conducted weekly sprint reviews with management}
+	}
+	
+	\ifmaster{
+		\resumeItem{Reduced PCB footprint by 60\% through strategic component placement and 6-layer stackup design}
+		\resumeItem{Wrote C modules in Zephyr RTOS to drive electrochromic windows controller, increasing transitioning rate by 50\%}
+		\resumeItem{Developed Python automation scripts for CI/CD pipeline, reducing deployment time by 40\%}
+		\resumeItem{Implemented low-power sleep modes and power management for battery-operated IoT device}
+		\resumeItem{Designed and tuned 2.4 GHz inverted-F antenna with -12dB return loss across operating band}
+		\resumeItem{Led cross-functional team of 5 engineers through complete product development lifecycle}
+	}
+	
 	\resumeItemListEnd
 	
 	\resumeSubheading
 	{\href{https://sarcomeredynamics.com/home}{Sarcomere Dynamics}}{May 2023 – Apr 2024}
 	{Electrical and Firmware Engineering Intern}{Vancouver, B.C.}
 	\resumeItemListStart
-	\resumeItem{Implemented embedded C firmware with a finite state machine to control actuators in a multi-DOF robotic hand}
-	\resumeItem{Redesigned three PCBs with emphasis on USB-C integration, mixed-signal routing, and power delivery}
-	\resumeItem{Developed modular C++ classes and extended a custom Python API to support wireless communication via Wi-Fi}
-	\resumeItem{Performed reflow soldering, signal probing, and hardware bring-up for embedded prototypes}
+	
+	\ifembedded{
+		\resumeItem{Implemented embedded C firmware with a finite state machine to control actuators in a multi-DOF robotic hand}
+		\resumeItem{Integrated multiple sensor inputs (IMU, force sensors) for real-time haptic feedback control}
+		\resumeItem{Optimized control algorithms for sub-millisecond response times in safety-critical applications}
+		\resumeItem{Developed custom communication protocol for synchronized multi-actuator coordination}
+	}
+	
+	\ifsoftware{
+		\resumeItem{Developed modular C++ classes and extended a custom Python API to support wireless communication via Wi-Fi}
+		\resumeItem{Built cross-platform GUI application using Qt for real-time robotic hand control and monitoring}
+		\resumeItem{Implemented machine learning algorithms for gesture recognition and adaptive control}
+		\resumeItem{Created comprehensive testing framework with automated regression tests and performance benchmarks}
+	}
+	
+	\ifhardware{
+		\resumeItem{Redesigned three PCBs with emphasis on USB-C integration, mixed-signal routing, and power delivery}
+		\resumeItem{Performed reflow soldering, signal probing, and hardware bring-up for embedded prototypes}
+		\resumeItem{Designed high-speed differential pair routing for reliable data transmission up to 480 Mbps}
+		\resumeItem{Implemented power management system with dynamic voltage scaling for extended battery life}
+	}
+	
+	\iffirmware{
+		\resumeItem{Implemented embedded C firmware with a finite state machine to control actuators in a multi-DOF robotic hand}
+		\resumeItem{Developed device drivers for motor controllers, sensors, and communication interfaces}
+		\resumeItem{Implemented real-time operating system tasks with priority-based scheduling for multi-actuator control}
+		\resumeItem{Created robust error handling and recovery mechanisms for fault-tolerant operation}
+	}
+	
+	\ifprojectmgmt{
+		\resumeItem{Coordinated cross-functional team of hardware, firmware, and software engineers for integrated product development}
+		\resumeItem{Managed project timeline and resource allocation, delivering prototype 2 weeks ahead of schedule}
+		\resumeItem{Facilitated technical reviews and design decisions, ensuring alignment with product requirements}
+		\resumeItem{Implemented risk management strategies and contingency planning for critical project milestones}
+	}
+	
+	\ifmaster{
+		\resumeItem{Implemented embedded C firmware with a finite state machine to control actuators in a multi-DOF robotic hand}
+		\resumeItem{Redesigned three PCBs with emphasis on USB-C integration, mixed-signal routing, and power delivery}
+		\resumeItem{Developed modular C++ classes and extended a custom Python API to support wireless communication via Wi-Fi}
+		\resumeItem{Built cross-platform GUI application using Qt for real-time robotic hand control and monitoring}
+		\resumeItem{Performed reflow soldering, signal probing, and hardware bring-up for embedded prototypes}
+		\resumeItem{Coordinated cross-functional team of hardware, firmware, and software engineers for integrated product development}
+	}
+	
 	\resumeItemListEnd
 
 	\resumeSubHeadingListEnd
